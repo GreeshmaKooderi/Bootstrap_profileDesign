@@ -1,0 +1,35 @@
+.navbar-brand{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    font-weight: Bold;
+    margin-left: 150px;
+}
+
+#collapsibleNavbar{
+    margin-right: 150PX;
+}
+
+.carousel-caption {
+    top: 100px;       /* move to top */
+    left: 200px;      /* move to left */
+    right: auto;     /* remove default right alignment */
+    bottom: auto;    /* remove bottom positioning */
+    text-align: left;
+}
+
+#about{
+    text-align: center;
+    height: 200px;
+    align-content: center;
+}
+
+#skills{
+    text-align: center;
+    height: 400px;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.card{
+    align-items: center;
+}

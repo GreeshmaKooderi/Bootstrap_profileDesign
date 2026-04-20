@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-sm bg-danger navbar-dark text-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">new profile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse d-flex flex-row-reverse " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+      <!-- HERO -->
+    <main>
+      
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="btn btn-dark btn-outline-light border border-5 w-1 py-2 active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="btn btn-dark btn-outline-light border border-5 w-1 py-2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="btn btn-dark btn-outline-light border border-5 w-1 py-2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="btn btn-dark btn-outline-light border border-5 w-1 py-2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMAGE1.jpg" alt="Los Angeles" class="d-block" style="width:100%; height: 700px;">
+            <div class="carousel-caption">
+              <h3>UX/UI Developer</h3>
+              <p>I develope website using bootstrap front-end <br>framework.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGE2.jpg" alt="Chicago" class="d-block" style="width:100%; height: 700px;"> 
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGE3.jpg" alt="New York" class="d-block" style="width:100%; height: 700px;">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGE4.jpg" alt="New York" class="d-block" style="width:100%; height: 700px;">  
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- About Us -->
+    <div class="container-fluid">
+      <section id="about">
+        <h3>I create beautiful responsive websites, Yes I am a UX geek</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, veniam sint. 
+          Sapiente inventore iusto quisquam porro libero quas provident possimus a ratione labore 
+          eligendi assumenda voluptatum, repellat perspiciatis repellendus voluptate?</p>
+
+      </section>
+
+    </div>
+
+    <!-- Skills -->
+    <div class="container-fluid bg-secondary">
+      <section id="skills">
+        <h3>I am Sam, a UI Designer & developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="container-fluid bg-secondary">
+          <div class="row p-5 g-4"> <!-- g-4 creates space between items -->
+        
+            <div class="col-md-4">
+              <div class="card text-center p-3">
+                <i class="fa-solid fa-desktop fs-1 pt-2 pb-4" style="color: rgb(30, 48, 80);"></i>
+                <h4 class="card-title">Responsive Design</h4>
+              </div>
+            </div>
+        
+            <div class="col-md-4">
+              <div class="card text-center p-3">
+                <i class="fa-brands fa-html5 fs-1 pt-2 pb-4" style="color: rgb(30, 48, 80);"></i>
+                <h4 class="card-title">HTML5/CSS3 Dev</h4>
+              </div>
+            </div>
+        
+            <div class="col-md-4">
+              <div class="card text-center p-3">
+                <i class="fa-regular fa-lightbulb fs-1 pt-2 pb-4" style="color: rgb(30, 48, 80);"></i>
+                <h4 class="card-title">Creative Ideas</h4>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </section> 
+    </div>
+
+  </body>
+</html>
